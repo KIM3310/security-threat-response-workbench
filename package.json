@@ -1,0 +1,37 @@
+{
+  "name": "security-threat-response-workbench",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prepare:sample": "python3 scripts/build_security_snapshot.py",
+    "verify:security": "bash scripts/verify_snapshot.sh",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "verify": "npm run prepare:sample && npm run typecheck && npm test && npm run build && npm run verify:security",
+    "cf:deploy": "npm run prepare:sample && npm run build && wrangler deploy",
+    "cf:deploy:dry": "npm run prepare:sample && npm run build && wrangler deploy --dry-run"
+  },
+  "dependencies": {
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "jsdom": "^29.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "vitest": "^4.1.0",
+    "wrangler": "^4.78.0"
+  }
+}

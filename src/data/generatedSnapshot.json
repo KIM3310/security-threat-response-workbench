@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "generatedAt": "2026-03-29 20:06 UTC",
+    "sourceFiles": 3,
+    "shiftWindow": "09:12 - 20:06 UTC"
+  },
+  "summary": [
+    {
+      "label": "Normalized events",
+      "value": "24 events",
+      "detail": "WAF, IDS, and DDoS JSONL samples were normalized into one shift-ready watchboard."
+    },
+    {
+      "label": "Blocked or contained",
+      "value": "14 actions",
+      "detail": "Block, challenge, mitigate, and isolate outcomes are separated from pure escalation noise."
+    },
+    {
+      "label": "Human escalations",
+      "value": "5 escalations",
+      "detail": "Only the events that survived validation moved into analyst or owner escalation."
+    },
+    {
+      "label": "Tuned detections",
+      "value": "6 rules",
+      "detail": "The sample shift demonstrates how pattern tuning becomes part of normal response work."
+    }
+  ],
+  "lanes": [
+    {
+      "label": "DDoS lane",
+      "value": "8 events",
+      "detail": "Mitigation, challenge, and blackhole watch decisions stayed tied to service continuity rather than raw traffic alone."
+    },
+    {
+      "label": "IDS lane",
+      "value": "8 events",
+      "detail": "East-west validation reduced noisy internal detections down to the few signals worth escalation."
+    },
+    {
+      "label": "WAF lane",
+      "value": "8 events",
+      "detail": "Credential stuffing, SQLi, path traversal, and virtual-patch hits concentrated on exposed service edges."
+    }
+  ],
+  "patterns": [
+    {
+      "label": "L7 GET flood",
+      "value": "3 hits",
+      "detail": "Attack pressure was heavy enough to justify mitigation but still needed real-user success tracking."
+    },
+    {
+      "label": "Credential-stuffing burst",
+      "value": "3 hits",
+      "detail": "Repeated login abuse across multiple ASNs suggests coordinated bot reuse rather than one noisy source."
+    },
+    {
+      "label": "Bot retry spillover",
+      "value": "2 hits",
+      "detail": "Important signal retained for analyst validation and follow-through."
+    },
+    {
+      "label": "East-west beacon",
+      "value": "2 hits",
+      "detail": "One chain stayed important only after suppression removed obvious noise."
+    }
+  ],
+  "handoff": [
+    {
+      "label": "APAC game launch edge",
+      "value": "Hold current mitigation threshold",
+      "detail": "Do not relax the blackhole trigger until the retry-bot slope stays below baseline for one more watch window."
+    },
+    {
+      "label": "JP login edge",
+      "value": "Keep challenge rule active",
+      "detail": "ASN-based tuning reduced attack pressure, but the narrow mobile-carrier exception review should stay open for the next shift."
+    },
+    {
+      "label": "Cloud console route",
+      "value": "Preserve virtual patch",
+      "detail": "The temporary WAF rule should remain online until the platform owner confirms patch rollout and change-unfreeze criteria."
+    }
+  ]
+}
