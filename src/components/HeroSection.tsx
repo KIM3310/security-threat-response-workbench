@@ -4,11 +4,11 @@ export function HeroSection() {
   return (
     <section className="hero card-panel">
       <div className="hero-copy">
-        <p className="eyebrow">Cloud Security Threat Response Portfolio Project</p>
+        <p className="eyebrow">Cloud Security Response Workbench</p>
         <h1>Security Threat Response Workbench</h1>
         <p className="hero-summary">
           Scenario-driven SOC surface for 24x365 event analysis, WAF and IDS triage, DDoS
-          containment, vulnerability response, shift handoff, and analyst-first automation.
+          containment, vulnerability response, shift handoff, and operator-first automation.
         </p>
         <div className="hero-actions">
           <a className="primary-action" href="#scenario-board">
@@ -16,15 +16,15 @@ export function HeroSection() {
             <ArrowRight aria-hidden="true" />
           </a>
           <a className="secondary-action" href="#role-fit">
-            Map this project to the role
+            Open operating map
           </a>
         </div>
-        <div className="hero-chips" aria-label="Role alignment keywords">
+        <div className="hero-chips" aria-label="Surface keywords">
           <span>24x365 security event triage</span>
           <span>WAF / IDS / DDoS analysis</span>
           <span>Cloud and portal service protection</span>
           <span>Shift handoff and knowledge sharing</span>
-          <span>Python / Bash analyst automation</span>
+          <span>Python / Bash operator automation</span>
         </div>
       </div>
 

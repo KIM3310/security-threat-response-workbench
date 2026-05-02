@@ -7,7 +7,7 @@ const deliveryPosture = [
   {
     title: 'No vendor SIEM dependency',
     detail:
-      'The review flow is deterministic and self-contained, so the portfolio proof works without a live SIEM tenant or managed appliance.',
+      'The review flow is deterministic and self-contained, so the local proof works without a live SIEM tenant or managed appliance.',
   },
   {
     title: 'Python and Bash included',
@@ -17,7 +17,7 @@ const deliveryPosture = [
   {
     title: 'No external datasets',
     detail:
-      'Attack scenarios, handoff notes, and virtual-patch decisions are packaged inside the repo, which keeps the project reviewer-safe and easy to ship.',
+      'Attack scenarios, handoff notes, and virtual-patch decisions are packaged inside the repo, which keeps the project self-contained and easy to ship.',
   },
 ] as const;
 
@@ -76,7 +76,7 @@ export function ScenarioBoard({
             </div>
           </div>
           <p className="section-copy">
-            Every scenario is deterministic and reviewer-safe, but the decision language stays
+            Every scenario is deterministic and self-contained, but the decision language stays
             close to a cloud threat-response shift: portal edge, payment abuse, DDoS
             mitigation, IDS escalation, virtual patching, handoff, and false-positive control.
           </p>
@@ -118,10 +118,10 @@ export function ScenarioBoard({
           />
         </div>
 
-        <div className="reviewer-note-box">
-          <p className="section-kicker">Recruiter fast take</p>
+        <div className="operator-note-box">
+          <p className="section-kicker">Operator fast take</p>
           <ul>
-            {activeScenario.recruiterNotes.map((note) => (
+            {activeScenario.operatorNotes.map((note) => (
               <li key={note}>{note}</li>
             ))}
           </ul>

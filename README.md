@@ -1,8 +1,8 @@
 # Security Threat Response Workbench
 
-Scenario-driven security operations workbench focused on continuous event response, edge and network signal analysis, vulnerability-response coordination, shift handoff, and Python/Bash analyst automation.
+Scenario-driven security operations workbench focused on continuous event response, edge and network signal analysis, vulnerability-response coordination, shift handoff, and Python/Bash operator automation.
 
-Technical review pack: [`docs/technical-review-pack.md`](docs/technical-review-pack.md)
+System walkthrough pack: [`docs/technical-review-pack.md`](docs/technical-review-pack.md)
 
 ## Resource posture
 
@@ -28,7 +28,7 @@ This repo is designed to make one technical story explicit:
 
 1. Event response needs shift continuity, not only isolated alert cards.
 2. Logs, alerts, and attack noise need to become containment, escalation, and handoff decisions.
-3. Python and Bash automation can normalize evidence and reduce analyst friction.
+3. Python and Bash automation can normalize evidence and reduce operator friction.
 4. Mature response work includes documentation, continuity, and vulnerability follow-through, not only blocking one signal.
 
 ## Workbench Surfaces
@@ -38,12 +38,12 @@ This repo is designed to make one technical story explicit:
   - game launch Layer-7 DDoS / bot flood
   - cloud console exploit probe / east-west IDS pivot
 - **Python-normalized watchboard:** sample WAF, IDS, and DDoS logs normalized into operations-ready summaries
-- **Shift handoff board:** rotation notes written so the next analyst can continue without rediscovering context
+- **Shift handoff board:** rotation notes written so the next shift can continue without rediscovering context
 - **Coverage board:** perimeter, application, internal detection, and workflow posture in one view
 - **Attack path view:** how one signal moves from attacker entry to business exposure
 - **Security queue:** prioritized event triage with owner and next move
 - **Containment log:** shift timeline and escalation flow
-- **Analyst runbook:** owner-based response steps
+- **Operator runbook:** owner-based response steps
 - **Detection tuning board:** enrichment, validation, virtual patching, and handoff automation
 - **Runtime pack:** deterministic routes and text surfaces used by the local UI
 
@@ -133,14 +133,14 @@ src/
   test/                    UI and utility tests
 ```
 
-## Interview positioning
+## System Walkthrough Notes
 
 Use this repo like this:
 
-- **Lead with military network/security operations experience** for 24x365 discipline, incident response, and handoff behavior
-- **Then use this project** to show how that experience translates into cloud security threat response, not only network uptime
-- **Then mention the Python/Bash snapshot scripts** as evidence that you can automate repetitive analyst work
+- **Start with the operating model** for 24x365 discipline, incident response, and handoff behavior
+- **Then use this project** to show how those controls translate into cloud security threat response, not only network uptime
+- **Then mention the Python/Bash snapshot scripts** as evidence that repetitive response analysis can be automated
 
-## Suggested talking point
+## Suggested System Note
 
-“이 프로젝트는 클라우드 보안위협대응 직무에 맞춰 만든 워크벤치입니다. WAF, IDS, DDoS 이벤트를 따로 보지 않고 서비스 영향, 인수인계, 가상 패치, 교대근무형 대응 흐름까지 한 화면에서 판단하도록 설계했습니다.”
+“이 프로젝트는 클라우드 보안위협대응 흐름을 위한 워크벤치입니다. WAF, IDS, DDoS 이벤트를 따로 보지 않고 서비스 영향, 인수인계, 가상 패치, 교대근무형 대응 흐름까지 한 화면에서 판단하도록 설계했습니다.”

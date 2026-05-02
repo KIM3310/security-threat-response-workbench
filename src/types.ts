@@ -122,5 +122,5 @@ export interface Scenario {
   runbook: RunbookStep[];
   applicationAssets: ApplicationAsset[];
   roleMappings: RoleMapping[];
-  recruiterNotes: string[];
+  operatorNotes: string[];
 }

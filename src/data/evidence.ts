@@ -62,7 +62,7 @@ export const scenarioEvidence: Record<string, ScenarioEvidence> = {
       },
     ],
     analystBriefLead:
-      'Portal login abuse is active but controlled. The main job is to preserve sign-in continuity while keeping challenge posture strong enough to prevent takeover spread.',
+      'Portal login abuse is active but controlled. The main task is to preserve sign-in continuity while keeping challenge posture strong enough to prevent takeover spread.',
     analystBriefClose:
       'Do not relax the rule set broadly. The next shift should continue with the current ASN tuning and review only the narrow carrier exception lane.',
   },
@@ -148,7 +148,7 @@ export const scenarioEvidence: Record<string, ScenarioEvidence> = {
         label: 'What the next shift needs',
         value: 'Patch owner + unfreeze criteria',
         detail:
-          'The next analyst must know who owns the permanent fix, what rollback exists, and which exact condition allows change work to resume.',
+          'The next analyst must know who owns the permanent fix, what rollback exists, and which exact condition allows change work to system note.',
       },
     ],
     indicators: [
@@ -180,6 +180,6 @@ export const scenarioEvidence: Record<string, ScenarioEvidence> = {
     analystBriefLead:
       'The console exploit wave is mostly noisy probing, but one validated east-west chain keeps this from being a perimeter-only event. Response should stay scoped and evidence-driven.',
     analystBriefClose:
-      'Leave the virtual patch online, keep the isolated workload frozen, and do not resume risky changes until patch ownership and unfreeze criteria are explicitly documented.',
+      'Leave the virtual patch online, keep the isolated workload frozen, and do not system note risky changes until patch ownership and unfreeze criteria are explicitly documented.',
   },
 };

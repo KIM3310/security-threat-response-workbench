@@ -112,7 +112,7 @@ select {
 .domain-availability {
   margin: 0;
   font-family: 'Avenir Next Condensed', 'Space Grotesk', 'Avenir Next', sans-serif;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
 }
 
 .hero h1 {
@@ -124,7 +124,7 @@ select {
 .hero-summary,
 .section-copy,
 .proof-points li,
-.reviewer-note-box li,
+.operator-note-box li,
 .metric-card p,
 .domain-detail,
 .path-detail,
@@ -366,7 +366,7 @@ select {
 }
 
 .overview-card,
-.reviewer-note-box,
+.operator-note-box,
 .metric-card,
 .domain-card,
 .automation-card,
@@ -395,17 +395,17 @@ select {
   line-height: 1.5;
 }
 
-.reviewer-note-box {
+.operator-note-box {
   margin-top: 16px;
   padding: 18px 20px;
 }
 
-.reviewer-note-box ul {
+.operator-note-box ul {
   margin: 12px 0 0;
   padding-left: 18px;
 }
 
-.reviewer-note-box li {
+.operator-note-box li {
   line-height: 1.65;
 }
 
@@ -946,7 +946,7 @@ select {
   margin: 6px 0 0;
   font-size: 1.4rem;
   font-family: 'Avenir Next Condensed', 'Space Grotesk', 'Avenir Next', sans-serif;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
 }
 
 .snapshot-card p:last-child {
@@ -1021,6 +1021,37 @@ select {
 
   .runbook-card {
     grid-template-columns: 1fr;
+  }
+}
+
+.hero,
+.hero-proof,
+.headline-card,
+.section-card,
+.scenario-board,
+.metric-card,
+.overview-card,
+.delivery-card,
+.domain-card,
+.path-node,
+.evidence-card,
+.indicator-card,
+.alarm-row,
+.timeline-card,
+.automation-card,
+.role-fit-card,
+.application-card,
+.snapshot-card,
+.brief-preview,
+.empty-state {
+  border-radius: 8px;
+}
+
+@media (max-width: 720px) {
+  .hero,
+  .scenario-board,
+  .section-card {
+    border-radius: 8px;
   }
 }
 

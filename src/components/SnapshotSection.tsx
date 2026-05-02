@@ -52,7 +52,7 @@ export function WatchboardSection() {
       icon={sectionIcon.automation}
       kicker="Log-derived proof"
       title="Python-normalized watchboard"
-      copy="Synthetic WAF, IDS, and DDoS logs are normalized into one review surface so the portfolio shows repeatable analysis habits, not only static screenshots."
+      copy="Synthetic WAF, IDS, and DDoS logs are normalized into one review surface so the system shows repeatable analysis habits, not only static screenshots."
       action={
         <div className="section-meta">
           <span className="meta-chip">{snapshot.meta.generatedAt}</span>
@@ -79,8 +79,8 @@ export function HandoffSection() {
     <CardSection
       icon={sectionIcon.runbook}
       kicker="Shift handoff"
-      title="What the next analyst can act on immediately"
-      copy="The handoff lane proves the behavior this job cares about: document, share, reduce rotation loss, and keep the next shift operationally ready."
+      title="What the next shift can act on immediately"
+      copy="The handoff lane proves the behavior this workflow cares about: document, share, reduce rotation loss, and keep the next shift operationally ready."
     >
       <div className="snapshot-handoff-grid">
         {snapshot.handoff.map((item) => (

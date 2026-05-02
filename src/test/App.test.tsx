@@ -4,11 +4,11 @@ import { describe, expect, it, vi } from 'vitest';
 import App from '../App';
 
 describe('Security Threat Response Workbench', () => {
-  it('renders the role-focused hero copy', () => {
+  it('renders the surface-focused hero copy', () => {
     render(<App />);
     expect(screen.getByText('Security Threat Response Workbench')).toBeInTheDocument();
-    expect(screen.getByText('Cloud Security Threat Response Portfolio Project')).toBeInTheDocument();
-    expect(screen.getByText('Map this project to the role')).toBeInTheDocument();
+    expect(screen.getByText('Cloud Security Response Workbench')).toBeInTheDocument();
+    expect(screen.getByText('Open operating map')).toBeInTheDocument();
     expect(screen.getByText('No extra resources required')).toBeInTheDocument();
     expect(screen.getByText('Python-normalized watchboard')).toBeInTheDocument();
   });
@@ -55,7 +55,7 @@ describe('Security Threat Response Workbench', () => {
     ).toBeInTheDocument();
   });
 
-  it('copies the analyst brief', async () => {
+  it('copies the operator brief', async () => {
     const user = userEvent.setup();
     const writeText = vi.fn().mockResolvedValue(undefined);
 
@@ -66,13 +66,13 @@ describe('Security Threat Response Workbench', () => {
 
     render(<App />);
 
-    const applicationSection = screen.getByText('Use this directly in your resume and interview').closest('section');
+    const applicationSection = screen.getByText('Exportable operations notes').closest('section');
 
     expect(applicationSection).not.toBeNull();
 
     await user.click(
       within(applicationSection as HTMLElement).getByRole('button', {
-        name: /Copy analyst brief/i,
+        name: /Copy operator brief/i,
       }),
     );
 
@@ -80,7 +80,7 @@ describe('Security Threat Response Workbench', () => {
     expect(writeText.mock.calls[0][0]).toContain('Portal Login Credential-Stuffing Surge');
     expect(
       within(applicationSection as HTMLElement).getByRole('button', {
-        name: /Analyst brief copied/i,
+        name: /Operator brief copied/i,
       }),
     ).toBeInTheDocument();
   });

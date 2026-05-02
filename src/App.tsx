@@ -135,7 +135,7 @@ function App() {
             icon={sectionIcon.evidence}
             kicker="Evidence pack"
             title="IOC and operator evidence"
-            copy="This section sharpens the security story. It shows what the analyst would actually brief: attacker shape, business risk, containment choice, and the indicators worth carrying into the next shift."
+            copy="This section sharpens the security story. It shows what the operator would actually brief: attacker shape, business risk, containment choice, and the indicators worth carrying into the next shift."
           >
             <div className="evidence-grid">
               {activeEvidence.evidenceCards.map((item) => (
@@ -172,7 +172,7 @@ function App() {
             icon={sectionIcon.timeline}
             kicker="Shift log"
             title="Containment timeline"
-            copy="A threat-response role is not only about seeing alerts. It is about deciding, communicating, reducing risk, and leaving the next shift with a clean operating picture."
+            copy="Threat response is not only about seeing alerts. It is about deciding, communicating, reducing risk, and leaving the next shift with a clean operating picture."
           >
             <div className="timeline-list">
               {activeScenario.timeline.map((entry) => (
@@ -185,8 +185,8 @@ function App() {
         <section className="two-column">
           <CardSection
             icon={sectionIcon.runbook}
-            kicker="Analyst runbook"
-            title="Interview-friendly response steps"
+            kicker="Operator runbook"
+            title="Response steps with clear ownership"
             copy="This makes the project feel less like a dashboard and more like an operational product. Each step ties technical judgment to owner responsibility and expected outcome."
           >
             <div className="runbook-list">
@@ -198,17 +198,17 @@ function App() {
 
           <CardSection
             icon={sectionIcon.application}
-            kicker="Application pack"
-            title="Use this directly in your resume and interview"
-            copy="These are the exact lines you can lift into your self-introduction, portfolio walkthrough, or role-specific resume bullets."
+            kicker="Operations pack"
+            title="Exportable operations notes"
+            copy="Reusable notes for handoff summaries, architecture reviews, and system walkthroughs."
             action={
               <button type="button" className="copy-brief-button" onClick={handleCopyBrief}>
                 <Copy aria-hidden="true" />
                 {copyState === 'copied'
-                  ? 'Analyst brief copied'
+                  ? 'Operator brief copied'
                   : copyState === 'failed'
                     ? 'Copy unavailable'
-                    : 'Copy analyst brief'}
+                    : 'Copy operator brief'}
               </button>
             }
           >
@@ -227,7 +227,7 @@ function App() {
         <section className="two-column">
           <CardSection
             icon={sectionIcon.automation}
-            kicker="Analyst assist"
+            kicker="Operator assist"
             title="Detection tuning and response automation"
             copy="Automation here means faster, cleaner threat handling. The assist layer focuses on enrichment, prioritization, virtual patching, and handoff discipline."
           >
@@ -240,9 +240,9 @@ function App() {
 
           <CardSection
             icon={sectionIcon.roleFit}
-            kicker="Role fit"
-            title="Why this maps to the posting"
-            copy="This section keeps the project from drifting into generic DevOps or generic AI territory. It stays anchored to the actual cloud security threat-response lane."
+            kicker="Capability fit"
+            title="Capabilities this surface demonstrates"
+            copy="This section keeps the system from drifting into generic DevOps or generic AI territory. It stays anchored to the cloud security threat-response lane."
             id="role-fit"
           >
             <div className="role-fit-list">

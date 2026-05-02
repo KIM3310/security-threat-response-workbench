@@ -31,7 +31,7 @@ export function AlarmSection({
       icon={<Activity className="section-icon" aria-hidden="true" />}
       kicker="Security queue"
       title="Prioritized event triage"
-      copy="The table is intentionally action-first: severity, signal, impact, and owner decision. That makes it easier to discuss 24x365 operational judgment in interviews."
+      copy="The table is intentionally action-first: severity, signal, impact, and owner decision. That makes it easier to discuss 24x365 operational judgment in system walkthroughs."
     >
       <div className="filter-toolbar">
         <label className="search-field">

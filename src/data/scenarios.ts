@@ -80,7 +80,7 @@ export const scenarios: Scenario[] = [
         layer: 'Internal',
         status: 'healthy',
         availability: '99.2%',
-        detail: 'Takeover candidates are isolated to a small list rather than flooding the whole risk queue.',
+        detail: 'Takeover cases are isolated to a small list rather than flooding the whole risk queue.',
       },
     ],
     servicePath: [
@@ -106,7 +106,7 @@ export const scenarios: Scenario[] = [
         name: 'Account and risk services',
         segment: 'Internal decision point',
         status: 'healthy',
-        detail: 'High-confidence takeover candidates are narrowed to a small review set.',
+        detail: 'High-confidence takeover cases are narrowed to a small review set.',
       },
       {
         name: 'Real-user sign-in experience',
@@ -124,7 +124,7 @@ export const scenarios: Scenario[] = [
         impact: 'Attack traffic is large enough to raise user friction and create takeover risk if challenge posture weakens.',
         signal: 'Failed logins spiked 11x baseline with rotating ASN and user-agent patterns.',
         owner: 'Threat Response Analyst',
-        nextAction: 'Keep challenge mode active, tighten ASN rule, and review exception candidates with service owner.',
+        nextAction: 'Keep challenge mode active, tighten ASN rule, and review exception cases with service owner.',
         eta: 'next 10m',
       },
       {
@@ -225,11 +225,11 @@ export const scenarios: Scenario[] = [
         text: '이 시나리오는 포털 로그인 공격 상황에서 WAF, 사용자 영향, 서비스 운영팀 협업, 교대 인수인계를 한 화면에서 보여줍니다. 단순 차단이 아니라 실제 사용자 경험과 공격 억제를 함께 판단하는 흐름이 핵심입니다.',
       },
       {
-        label: 'Resume bullet',
+        label: 'System note bullet',
         text: 'Built a portal-login abuse lane that combines WAF challenge tuning, account-risk escalation, false-positive control, and shift handoff in one threat-response surface.',
       },
       {
-        label: 'Interview angle',
+        label: 'Technical review angle',
         text: 'I wanted to show that strong security response is not only “block more.” It is about separating attackers from real users fast enough to protect both risk posture and service continuity.',
       },
     ],
@@ -247,7 +247,7 @@ export const scenarios: Scenario[] = [
         proof: 'The handoff builder and analyst notes make rotation loss a first-class problem to solve.',
       },
     ],
-    recruiterNotes: [
+    operatorNotes: [
       'Feels like a real login-abuse shift lane instead of a generic dashboard.',
       'Shows WAF response, user-friction control, and handoff discipline at the same time.',
       'Fits a 24x365 threat-response team that cares about both security and service impact.',
@@ -477,11 +477,11 @@ export const scenarios: Scenario[] = [
         text: '이 시나리오는 게임 런칭 시점의 DDoS와 봇 재시도 흐름을 다루며, 단순 트래픽 차단이 아니라 실제 사용자 성공률을 기준으로 완화 강도를 조절하는 보안관제 판단을 보여줍니다.',
       },
       {
-        label: 'Resume bullet',
+        label: 'System note bullet',
         text: 'Built a game-launch threat lane that ties DDoS mitigation, WAF challenge posture, real-user success rate, and multi-shift handoff into one response surface.',
       },
       {
-        label: 'Interview angle',
+        label: 'Technical review angle',
         text: 'I included this to show I understand 24x365 work under pressure: the best response is fast, but it also has to be explainable and safe for the next shift to continue.',
       },
     ],
@@ -499,7 +499,7 @@ export const scenarios: Scenario[] = [
         proof: 'Automation helps decide what to tune, what to escalate, and what the next shift must inherit clearly.',
       },
     ],
-    recruiterNotes: [
+    operatorNotes: [
       'This scenario reads like an on-shift DDoS lane, not a generic traffic chart.',
       'It shows clear prioritization between attack pressure and real-user success.',
       'The handoff story maps well to a 24x365 team with rotation-based operations.',
@@ -577,7 +577,7 @@ export const scenarios: Scenario[] = [
         layer: 'Internal detection',
         status: 'degraded',
         availability: '1 high-confidence alert',
-        detail: 'Most noise is suppressed, leaving one lateral-movement candidate that requires isolation.',
+        detail: 'Most noise is suppressed, leaving one lateral-movement signal that requires isolation.',
       },
       {
         name: 'Vulnerability response',
@@ -648,7 +648,7 @@ export const scenarios: Scenario[] = [
         domain: 'Vulnerability response',
         title: 'Patch owner and rollback plan required before change unfreeze',
         impact: 'Without a named owner and rollback note, the incident can drift into prolonged watch mode.',
-        signal: 'Patch request is open but change-resume criteria are not yet documented.',
+        signal: 'Patch request is open but change-system note criteria are not yet documented.',
         owner: 'Platform Owner',
         nextAction: 'Confirm patch ETA, rollback path, and exact unfreeze trigger.',
         eta: '30m',
@@ -672,7 +672,7 @@ export const scenarios: Scenario[] = [
       {
         time: '14:24',
         title: 'Patch owner and unfreeze criteria documented',
-        detail: 'Security, platform, and change owners aligned on the temporary control, patch path, and exact resume trigger.',
+        detail: 'Security, platform, and change owners aligned on the temporary control, patch path, and exact system note trigger.',
         owner: 'Threat Response Analyst',
         state: 'queued',
       },
@@ -719,7 +719,7 @@ export const scenarios: Scenario[] = [
       {
         step: '04',
         owner: 'Security and change owners',
-        action: 'Document patch ETA, rollback path, and exact unfreeze criteria before normal changes resume.',
+        action: 'Document patch ETA, rollback path, and exact unfreeze criteria before normal changes system note.',
         outcome: 'The incident closes with a clean operational boundary instead of vague “watch and wait” language.',
       },
     ],
@@ -729,11 +729,11 @@ export const scenarios: Scenario[] = [
         text: '이 시나리오는 클라우드 콘솔 공격 탐지, WAF 가상 패치, IDS 기반 내부 확산 의심 신호 검증, 취약점 대응 협업을 한 화면에서 설명하도록 설계했습니다. 보안 대응과 운영 변경관리의 연결이 핵심입니다.',
       },
       {
-        label: 'Resume bullet',
+        label: 'System note bullet',
         text: 'Built a cloud-console threat lane that combines exploit triage, virtual patching, east-west IDS validation, scoped isolation, and change-freeze coordination.',
       },
       {
-        label: 'Interview angle',
+        label: 'Technical review angle',
         text: 'I wanted to show that mature security response is also operations response: you contain risk fast, but you also define who patches, who rolls back, and when the business can safely move again.',
       },
     ],
@@ -751,10 +751,10 @@ export const scenarios: Scenario[] = [
         proof: 'Containment is precise enough to reduce risk without forcing a broad service shutdown.',
       },
     ],
-    recruiterNotes: [
+    operatorNotes: [
       'This scenario fills the biggest gap in a typical junior profile: vulnerability response joined to IDS validation and change coordination.',
       'Reads like cloud-service protection work rather than a purely academic security lab.',
-      'Good fit for explaining why the candidate can grow into a threat-response role even without prior SOC title history.',
+      'Good fit for explaining how the surface supports threat response even without a live SOC tenant.',
     ],
   },
 ];
