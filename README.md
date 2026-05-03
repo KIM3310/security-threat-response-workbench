@@ -144,3 +144,11 @@ Use this repo like this:
 ## Suggested System Note
 
 “이 프로젝트는 클라우드 보안위협대응 흐름을 위한 워크벤치입니다. WAF, IDS, DDoS 이벤트를 따로 보지 않고 서비스 영향, 인수인계, 가상 패치, 교대근무형 대응 흐름까지 한 화면에서 판단하도록 설계했습니다.”
+
+## Cloud + AI Architecture
+
+This repository includes a neutral cloud and AI engineering blueprint that maps the current proof surface to runtime boundaries, data contracts, model-risk controls, deployment posture, and validation hooks.
+
+- [Cloud + AI architecture blueprint](docs/cloud-ai-architecture.md)
+- [Machine-readable architecture manifest](architecture/blueprint.json)
+- Validation command: `python3 scripts/validate_architecture_blueprint.py`
