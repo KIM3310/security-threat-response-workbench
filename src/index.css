@@ -132,7 +132,7 @@ select {
 .timeline-card p,
 .automation-summary,
 .automation-outcome,
-.role-fit-card p,
+.capability-fit-card p,
 .headline-detail {
   color: var(--muted);
 }
@@ -370,7 +370,7 @@ select {
 .metric-card,
 .domain-card,
 .automation-card,
-.role-fit-card,
+.capability-fit-card,
 .delivery-card,
 .runbook-card,
 .application-card {
@@ -551,7 +551,7 @@ select {
 
 .domain-grid,
 .automation-grid,
-.role-fit-list,
+.capability-fit-list,
 .application-list,
 .runbook-list,
 .evidence-grid,
@@ -570,7 +570,7 @@ select {
 
 .domain-card-header,
 .automation-card-header,
-.role-fit-header,
+.capability-fit-header,
 .timeline-header {
   display: flex;
   justify-content: space-between;
@@ -583,7 +583,7 @@ select {
 .alarm-primary h3,
 .timeline-card h3,
 .automation-card h3,
-.role-fit-card h3 {
+.capability-fit-card h3 {
   margin: 8px 0 0;
   font-size: 1.08rem;
 }
@@ -824,7 +824,7 @@ select {
 }
 
 .automation-grid,
-.role-fit-list,
+.capability-fit-list,
 .application-list,
 .runbook-list {
   margin-top: 4px;
@@ -846,7 +846,7 @@ select {
 }
 
 .automation-card,
-.role-fit-card {
+.capability-fit-card {
   padding: 18px;
 }
 
@@ -857,7 +857,7 @@ select {
 
 .automation-summary,
 .automation-outcome,
-.role-fit-card p {
+.capability-fit-card p {
   margin: 10px 0 0;
   line-height: 1.7;
 }
@@ -866,7 +866,7 @@ select {
   color: #d8f8ed;
 }
 
-.role-fit-card p {
+.capability-fit-card p {
   margin-top: 12px;
 }
 
@@ -1039,7 +1039,7 @@ select {
 .alarm-row,
 .timeline-card,
 .automation-card,
-.role-fit-card,
+.capability-fit-card,
 .application-card,
 .snapshot-card,
 .brief-preview,

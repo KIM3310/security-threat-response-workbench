@@ -15,7 +15,7 @@ export function HeroSection() {
             Review the active threat lane
             <ArrowRight aria-hidden="true" />
           </a>
-          <a className="secondary-action" href="#role-fit">
+          <a className="secondary-action" href="#capability-fit">
             Open operating map
           </a>
         </div>

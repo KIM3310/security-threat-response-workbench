@@ -30,7 +30,7 @@ import {
   PathHop,
   TimelineCard,
   AutomationCardView,
-  RoleFitCard,
+  CapabilityFitCard,
   RunbookCard,
   ApplicationAssetCard,
   EvidenceCardView,
@@ -41,7 +41,7 @@ const sectionIcon = {
   servicePath: <Route className="section-icon" aria-hidden="true" />,
   timeline: <Clock3 className="section-icon" aria-hidden="true" />,
   automation: <Sparkles className="section-icon" aria-hidden="true" />,
-  roleFit: <Workflow className="section-icon" aria-hidden="true" />,
+  capabilityFit: <Workflow className="section-icon" aria-hidden="true" />,
   runbook: <BadgeCheck className="section-icon" aria-hidden="true" />,
   application: <FileText className="section-icon" aria-hidden="true" />,
   evidence: <Shield className="section-icon" aria-hidden="true" />,
@@ -239,15 +239,15 @@ function App() {
           </CardSection>
 
           <CardSection
-            icon={sectionIcon.roleFit}
+            icon={sectionIcon.capabilityFit}
             kicker="Capability fit"
             title="Capabilities this surface demonstrates"
             copy="This section keeps the system from drifting into generic DevOps or generic AI territory. It stays anchored to the cloud security threat-response lane."
-            id="role-fit"
+            id="capability-fit"
           >
-            <div className="role-fit-list">
+            <div className="capability-fit-list">
               {activeScenario.roleMappings.map((mapping) => (
-                <RoleFitCard key={mapping.keyword} mapping={mapping} />
+                <CapabilityFitCard key={mapping.keyword} mapping={mapping} />
               ))}
             </div>
           </CardSection>

@@ -119,10 +119,10 @@ export function AutomationCardView({ card }: { card: AutomationCard }) {
   );
 }
 
-export function RoleFitCard({ mapping }: { mapping: RoleMapping }) {
+export function CapabilityFitCard({ mapping }: { mapping: RoleMapping }) {
   return (
-    <article className="role-fit-card">
-      <div className="role-fit-header">
+    <article className="capability-fit-card">
+      <div className="capability-fit-header">
         <BadgeCheck className="section-icon" aria-hidden="true" />
         <h3>{mapping.keyword}</h3>
       </div>
