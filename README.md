@@ -23,6 +23,10 @@ A self-contained security operations desk that sells trust through clear triage,
 - **Verification:** Run `npm run verify`; it covers sample generation, typecheck, tests, build, and snapshot verification.
 - **Commercial read:** Use it as a tabletop exercise or managed security handoff board for teams without a full SIEM demo environment.
 
+## Commercialization Playbook
+
+- [Monetization and GTM playbook](docs/monetization-playbook.md) maps the repository to buyer segments, offer ladder, pricing hypotheses, proof gates, and risk boundaries.
+
 ## Resource posture
 
 No other resources are required to ship or demo this project well.
