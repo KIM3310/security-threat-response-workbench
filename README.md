@@ -16,6 +16,13 @@ A self-contained security operations desk that sells trust through clear triage,
 | Safety boundary | Signals are synthetic and deterministic; it demonstrates operating behavior, not live tenant access or production detection coverage. |
 | Fast proof | Run the snapshot builder and verification scripts, then inspect the generated response board and review pack. |
 
+## Reviewer Fast Path
+
+- **First minute:** Open the operator fast path, then compare the threat board with the shift handoff cards.
+- **Local demo:** Run `npm install`, `npm run prepare:sample`, and `npm run dev`; open `http://127.0.0.1:5173`.
+- **Verification:** Run `npm run verify`; it covers sample generation, typecheck, tests, build, and snapshot verification.
+- **Commercial read:** Use it as a tabletop exercise or managed security handoff board for teams without a full SIEM demo environment.
+
 ## Resource posture
 
 No other resources are required to ship or demo this project well.
