@@ -4,6 +4,18 @@ Scenario-driven security operations workbench focused on continuous event respon
 
 System walkthrough pack: [`docs/technical-review-pack.md`](docs/technical-review-pack.md)
 
+## Product and Review Surface
+
+A self-contained security operations desk that sells trust through clear triage, handoff continuity, and response discipline.
+
+| Lens | Definition |
+|---|---|
+| Buyer or user | SOC teams, cloud security teams, managed service operators, and infrastructure owners running tabletop exercises. |
+| Commercial route | Package as a tabletop exercise, response workflow starter, or managed security handoff board for small and mid-size teams. |
+| Review signal | WAF, IDS, DDoS, vulnerability response, shift handoff, deterministic snapshots, and operator runbooks. |
+| Safety boundary | Signals are synthetic and deterministic; it demonstrates operating behavior, not live tenant access or production detection coverage. |
+| Fast proof | Run the snapshot builder and verification scripts, then inspect the generated response board and review pack. |
+
 ## Resource posture
 
 No other resources are required to ship or demo this project well.
