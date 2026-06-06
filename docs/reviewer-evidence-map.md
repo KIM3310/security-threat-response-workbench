@@ -50,9 +50,9 @@ Use this page as the short path through the repository. It keeps the review grou
 
 | Possible offer | Working scope assumption |
 |---|---|
-| Tabletop exercise | $3k-$10k exercise |
-| Response workflow starter | $10k-$35k workflow setup |
-| Managed security handoff board | $2k-$8k/month response reporting |
+| Tabletop exercise | Scope after buyer intake |
+| Response workflow starter | Scope after buyer intake |
+| Managed security handoff board | Scope after buyer intake |
 
 ## Boundaries
 

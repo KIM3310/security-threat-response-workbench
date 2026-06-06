@@ -12,7 +12,7 @@ This is the buyer-ready version of the repository. It turns the technical proof 
 | Buyer | SOC teams, cloud security teams, MSPs, and infrastructure owners. |
 | Pain wedge | Self-contained response simulation for WAF, IDS, DDoS, vulnerability coordination, and shift handoff. |
 | Front-door offer | Tabletop exercise |
-| Entry scope | $3k-$10k exercise |
+| Entry scope | Scope after buyer intake |
 | Proof before pitch | npm run verify passes |
 | Next buyer action | Review one proof artifact, then choose diagnostic, workshop, pilot, support, or revival path. |
 
@@ -20,9 +20,9 @@ This is the buyer-ready version of the repository. It turns the technical proof 
 
 | Offer | Scope assumption | Buyer-facing scope |
 |---|---|---|
-| Tabletop exercise | $3k-$10k exercise | Package 3 tabletop scenarios |
-| Response workflow starter | $10k-$35k workflow setup | Record operator path demo |
-| Managed security handoff board | $2k-$8k/month response reporting | Offer response-readiness sprint |
+| Tabletop exercise | Scope after buyer intake | Package 3 tabletop scenarios |
+| Response workflow starter | Scope after buyer intake | Record operator path demo |
+| Managed security handoff board | Scope after buyer intake | Offer response-readiness sprint |
 
 ## Close Path
 

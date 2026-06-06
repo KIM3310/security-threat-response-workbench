@@ -49,9 +49,9 @@ This note specializes the repository for service launch. It combines product str
 
 ## Conversion Path
 
-- Risk-reversing entry: Tabletop exercise ($3k-$10k exercise) with one acceptance metric.
-- Pilot: Response workflow starter ($10k-$35k workflow setup) using buyer-approved data and named operators.
-- Recurring layer: Managed security handoff board ($2k-$8k/month response reporting) for monitoring, governance, support, or managed review.
+- Risk-reversing entry: Tabletop exercise (scope after buyer intake) with one acceptance metric.
+- Pilot: Response workflow starter (scope after buyer intake) using buyer-approved data and named operators.
+- Recurring layer: Managed security handoff board (scope after buyer intake) for monitoring, governance, support, or managed review.
 
 ## Scope Frame
 
