@@ -10,8 +10,8 @@ A self-contained security operations desk that sells trust through clear triage,
 
 | Lens | Definition |
 |---|---|
-| Buyer or user | SOC teams, cloud security teams, managed service operators, and infrastructure owners running tabletop exercises. |
-| Commercial route | Package as a tabletop exercise, response workflow starter, or managed security handoff board for small and mid-size teams. |
+| Audience | SOC teams, cloud security teams, managed service operators, and infrastructure owners running tabletop exercises. |
+| Review path | Validate the demo, README, architecture notes, and quality gate before deeper workflow review. |
 | Review signal | WAF, IDS, DDoS, vulnerability response, shift handoff, deterministic snapshots, and operator runbooks. |
 | Safety boundary | Signals are synthetic and deterministic; it demonstrates operating behavior, not live tenant access or production detection coverage. |
 | Fast proof | Run the snapshot builder and verification scripts, then inspect the generated response board and review pack. |
@@ -21,20 +21,16 @@ A self-contained security operations desk that sells trust through clear triage,
 - **First minute:** Open the operator fast path, then compare the threat board with the shift handoff cards.
 - **Local demo:** Run `npm install`, `npm run prepare:sample`, and `npm run dev`; open `http://127.0.0.1:5173`.
 - **Verification:** Run `npm run verify`; it covers sample generation, typecheck, tests, build, and snapshot verification.
-- **Commercial read:** Use it as a tabletop exercise or managed security handoff board for teams without a full SIEM demo environment.
 
 ## Service Launch Playbook
 
-- [Service launch playbook](docs/service-launch-playbook.md) maps the repository to buyer segments, offer ladder, proof gates, proof gates, and risk boundaries.
+- [Service launch playbook](docs/service-launch-playbook.md) maps the repository to review audiences, offer ladder, proof gates, proof gates, and risk boundaries.
 
 ## Review Notes
 
 - [Review guide](docs/reviewer-evidence-map.md) summarizes the project angle, first files to inspect, verification commands, and known boundaries.
 - [Quality notes](docs/quality-gate.md) lists the local checks, CI surface, and release expectations for this repository.
-- [Service growth model](docs/service-growth-model.md) maps the project to an ethical service path, activation loop, scope logic, and growth experiments.
 - [Enterprise readiness notes](docs/enterprise-readiness.md) outlines security, data, operations, integration, and handoff expectations.
-- [Conversion UX model](docs/conversion-ux-model.md) maps the buyer path, behavioral design, UI/UX direction, scope frame, and ethical conversion guardrails.
-- [Commercial offer](docs/commercial-offer.md) packages the repository into a buyer-ready offer ladder, proof gate, outreach angle, and close path.
 
 ## Resource posture
 
@@ -42,7 +38,7 @@ No other resources are required to ship or demo this project well.
 
 - no API keys
 - no live SIEM tenant
-- no commercial WAF or IDS appliance
+- no external WAF or IDS appliance
 - no external database
 - no model provider dependency
 
@@ -187,7 +183,7 @@ This repository includes a neutral cloud and AI engineering blueprint that maps 
 
 ## Enterprise Productization
 
-- [Product operating model](docs/product-operating-model.md) defines the buyer, paid wedge, trust boundary, operating checks, and service path for this repository.
+- [Product operating model](docs/product-operating-model.md) defines the reviewer, trust boundary, trust boundary, operating checks, and service path for this repository.
 
 ## Service Architecture
 

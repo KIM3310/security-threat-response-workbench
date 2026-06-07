@@ -373,7 +373,7 @@ export const scenarios: Scenario[] = [
         severity: 'critical',
         domain: 'DDoS mitigation edge',
         title: 'Layer-7 flood pressure on game launch path',
-        impact: 'Uncontrolled pressure could block real-player launch traffic and create visible revenue impact.',
+        impact: 'Uncontrolled pressure could block real-player launch traffic and create visible reliability impact.',
         signal: 'HTTP GET volume rose 16x baseline and kept rotating cache-bypass parameters.',
         owner: 'Threat Response Analyst',
         nextAction: 'Keep mitigation live and review player-success rate before any threshold change.',
@@ -535,7 +535,7 @@ export const scenarios: Scenario[] = [
       {
         label: 'Impacted workloads',
         value: '1 workload',
-        detail: 'Scoped isolation prevented the response from becoming a broad service outage.',
+        detail: 'Scoped isolation prevented the response from expanding into a service outage.',
         tone: 'amber',
       },
       {
@@ -748,7 +748,7 @@ export const scenarios: Scenario[] = [
       },
       {
         keyword: '보안 Risk 최소화',
-        proof: 'Containment is precise enough to reduce risk without forcing a broad service shutdown.',
+        proof: 'Containment is precise enough to reduce risk without forcing a wide shutdown.',
       },
     ],
     operatorNotes: [

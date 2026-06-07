@@ -78,7 +78,7 @@ export const scenarioEvidence: Record<string, ScenarioEvidence> = {
         label: 'Immediate business risk',
         value: 'Player launch failure',
         detail:
-          'The core measure is player success rate. If mitigation weakens too early, traffic pressure becomes visible revenue and reputation impact.',
+          'The core measure is player success rate. If mitigation weakens too early, traffic pressure becomes visible reliability and reputation impact.',
       },
       {
         label: 'Best containment move',

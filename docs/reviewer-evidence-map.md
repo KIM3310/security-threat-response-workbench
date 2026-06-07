@@ -46,13 +46,13 @@ Use this page as the short path through the repository. It keeps the review grou
 - Snapshot builder works
 - No-key simulation is clear
 
-## Commercial Notes
+## Review Notes
 
 | Possible offer | Working scope assumption |
 |---|---|
-| Tabletop exercise | Scope after buyer intake |
-| Response workflow starter | Scope after buyer intake |
-| Managed security handoff board | Scope after buyer intake |
+| Tabletop exercise | Scope after reviewer intake |
+| Response workflow starter | Scope after reviewer intake |
+| Managed security handoff board | Scope after reviewer intake |
 
 ## Boundaries
 
