@@ -7,6 +7,7 @@
     "dev": "vite",
     "prepare:sample": "python3 scripts/build_security_snapshot.py",
     "verify:security": "bash scripts/verify_snapshot.sh",
+    "lint": "npm run typecheck",
     "typecheck": "tsc --noEmit",
     "build": "vite build",
     "preview": "vite preview",
