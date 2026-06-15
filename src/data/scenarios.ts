@@ -229,7 +229,7 @@ export const scenarios: Scenario[] = [
         text: 'Built a portal-login abuse lane that combines WAF challenge tuning, account-risk escalation, false-positive control, and shift handoff in one threat-response surface.',
       },
       {
-        label: 'Technical review angle',
+        label: 'Architecture walkthrough angle',
         text: 'I wanted to show that strong security response is not only “block more.” It is about separating attackers from real users fast enough to protect both risk posture and service continuity.',
       },
     ],
@@ -481,7 +481,7 @@ export const scenarios: Scenario[] = [
         text: 'Built a game-launch threat lane that ties DDoS mitigation, WAF challenge posture, real-user success rate, and multi-shift handoff into one response surface.',
       },
       {
-        label: 'Technical review angle',
+        label: 'Architecture walkthrough angle',
         text: 'I included this to show I understand 24x365 work under pressure: the best response is fast, but it also has to be explainable and safe for the next shift to continue.',
       },
     ],
@@ -733,7 +733,7 @@ export const scenarios: Scenario[] = [
         text: 'Built a cloud-console threat lane that combines exploit triage, virtual patching, east-west IDS validation, scoped isolation, and change-freeze coordination.',
       },
       {
-        label: 'Technical review angle',
+        label: 'Architecture walkthrough angle',
         text: 'I wanted to show that mature security response is also operations response: you contain risk fast, but you also define who patches, who rolls back, and when the business can safely move again.',
       },
     ],

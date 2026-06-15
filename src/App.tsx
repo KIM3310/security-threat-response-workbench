@@ -200,7 +200,7 @@ function App() {
             icon={sectionIcon.application}
             kicker="Operations pack"
             title="Exportable operations notes"
-            copy="Reusable notes for handoff summaries, architecture reviews, and system walkthroughs."
+            copy="Reusable notes for handoff summaries, assessments, and system walkthroughs."
             action={
               <button type="button" className="copy-brief-button" onClick={handleCopyBrief}>
                 <Copy aria-hidden="true" />

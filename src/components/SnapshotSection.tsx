@@ -52,7 +52,7 @@ export function WatchboardSection() {
       icon={sectionIcon.automation}
       kicker="Log-derived proof"
       title="Python-normalized watchboard"
-      copy="Synthetic WAF, IDS, and DDoS logs are normalized into one review surface so the system shows repeatable analysis habits, not only static screenshots."
+      copy="Synthetic WAF, IDS, and DDoS logs are normalized into one architecture surface so the system shows repeatable analysis habits, not only static screenshots."
       action={
         <div className="section-meta">
           <span className="meta-chip">{snapshot.meta.generatedAt}</span>

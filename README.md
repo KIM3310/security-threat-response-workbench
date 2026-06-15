@@ -2,21 +2,21 @@
 
 Scenario-driven security operations workbench focused on continuous event response, edge and network signal analysis, vulnerability-response coordination, shift handoff, and Python/Bash operator automation.
 
-System walkthrough pack: [`docs/technical-review-pack.md`](docs/technical-review-pack.md)
+Architecture pack: [`docs/architecture-pack.md`](docs/architecture-pack.md)
 
-## Product and Review Surface
+## Product and System Surface
 
 A self-contained security operations desk that sells trust through clear triage, handoff continuity, and response discipline.
 
 | Lens | Definition |
 |---|---|
 | Audience | SOC teams, cloud security teams, managed service operators, and infrastructure owners running tabletop exercises. |
-| Review path | Validate the demo, README, architecture notes, and quality gate before deeper workflow review. |
-| Architecture signal | WAF, IDS, DDoS, vulnerability response, shift handoff, deterministic snapshots, and operator runbooks. |
+| Architecture path | Validate the demo, README, architecture notes, and quality gate before deeper workflow architecture. |
+| System signal | WAF, IDS, DDoS, vulnerability response, shift handoff, deterministic snapshots, and operator runbooks. |
 | Safety boundary | Signals are synthetic and deterministic; it demonstrates operating behavior, not live tenant access or production detection coverage. |
-| Fast proof | Run the snapshot builder and verification scripts, then inspect the generated response board and review pack. |
+| Fast path | Run the snapshot builder and verification scripts, then inspect the generated response board and architecture pack. |
 
-## Reviewer Fast Path
+## System Fast Path
 
 - **First minute:** Open the operator fast path, then compare the threat board with the shift handoff cards.
 - **Local demo:** Run `npm install`, `npm run prepare:sample`, and `npm run dev`; open `http://127.0.0.1:5173`.
@@ -24,11 +24,11 @@ A self-contained security operations desk that sells trust through clear triage,
 
 ## Service Launch Playbook
 
-- [Service launch playbook](docs/service-launch-playbook.md) maps the repository to review audiences, proof gates, operating boundaries, and risk controls.
+- [Service launch playbook](docs/service-launch-playbook.md) maps the repository to architecture audiences, operating gates, operating boundaries, and risk controls.
 
-## Review Notes
+## Architecture Notes
 
-- [Review guide](docs/reviewer-evidence-map.md) summarizes the project angle, first files to inspect, verification commands, and known boundaries.
+- [Architecture guide](docs/architecture-evidence-map.md) summarizes the project angle, first files to inspect, runtime commands, and known boundaries.
 - [Quality notes](docs/quality-gate.md) lists the local checks, CI surface, and release expectations for this repository.
 - [Enterprise readiness notes](docs/enterprise-readiness.md) outlines security, data, operations, integration, and handoff expectations.
 
@@ -79,7 +79,7 @@ This repo is designed to make one technical story explicit:
 
 The UI and data model deliberately stay close to security operations concerns:
 
-- `24x365` shift-oriented event review
+- `24x365` shift-oriented event architecture
 - `WAF / IDS / DDoS` signals in one loop
 - service-aware triage instead of abstract alert counts
 - handoff notes and knowledge-sharing behavior
@@ -183,7 +183,7 @@ This repository includes a neutral cloud and AI engineering blueprint that maps 
 
 ## Enterprise Productization
 
-- [Product operating model](docs/product-operating-model.md) defines the reviewer, trust boundary, trust boundary, operating checks, and service path for this repository.
+- [Product operating model](docs/product-operating-model.md) defines the technical reader, trust boundary, trust boundary, operating checks, and service path for this repository.
 
 ## System Architecture
 

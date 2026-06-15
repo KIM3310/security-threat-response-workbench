@@ -45,7 +45,7 @@ Operating model: segmented ingest, least-privilege response services, audit trai
 ### Deployment patterns
 
 - Edge-first deployment model with server-side AI adapters and public-safe secrets handling
-- Security control plane with audit logging, isolation boundaries, and response review gates
+- Security control plane with audit logging, isolation boundaries, and response architecture gates
 
 ### Control boundaries
 
@@ -69,7 +69,7 @@ Operating model: policy-scored triage, evidence extraction, response drafting, a
 ### Engineering patterns
 
 - Map raw events into typed findings, severity labels, response actions, and audit-ready evidence bundles
-- Keep automated remediation behind explicit review and rollback boundaries
+- Keep automated remediation behind explicit architecture and rollback boundaries
 - Separate deterministic checks from model-generated output so the system remains testable without external credentials
 - Capture prompts, inputs, outputs, and decision metadata as inspectable artifacts instead of hidden side effects
 - Gate model-assisted actions with policy, confidence, and fallback states before they reach an operator path
@@ -86,7 +86,7 @@ Operating model: policy-scored triage, evidence extraction, response drafting, a
 - unsafe tool execution
 - secret exposure
 - alert fatigue
-- unreviewed automated response
+- unapproved automated response
 
 ## Attached Architecture References
 
