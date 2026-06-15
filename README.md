@@ -12,7 +12,7 @@ A self-contained security operations desk that sells trust through clear triage,
 |---|---|
 | Audience | SOC teams, cloud security teams, managed service operators, and infrastructure owners running tabletop exercises. |
 | Review path | Validate the demo, README, architecture notes, and quality gate before deeper workflow review. |
-| Review signal | WAF, IDS, DDoS, vulnerability response, shift handoff, deterministic snapshots, and operator runbooks. |
+| Architecture signal | WAF, IDS, DDoS, vulnerability response, shift handoff, deterministic snapshots, and operator runbooks. |
 | Safety boundary | Signals are synthetic and deterministic; it demonstrates operating behavior, not live tenant access or production detection coverage. |
 | Fast proof | Run the snapshot builder and verification scripts, then inspect the generated response board and review pack. |
 
@@ -184,6 +184,10 @@ This repository includes a neutral cloud and AI engineering blueprint that maps 
 ## Enterprise Productization
 
 - [Product operating model](docs/product-operating-model.md) defines the reviewer, trust boundary, trust boundary, operating checks, and service path for this repository.
+
+## System Architecture
+
+- [System architecture](docs/system-architecture.md) maps the runtime boundary, data/control flow, cloud or local deployment surface, and operating assumptions for this repository.
 
 ## Service Architecture
 
