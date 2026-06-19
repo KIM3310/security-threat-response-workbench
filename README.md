@@ -192,3 +192,17 @@ This repository includes a neutral cloud and AI engineering blueprint that maps 
 ## Service Architecture
 
 - [Service architecture](docs/service-architecture.md) defines the cloud resources, account information, cost controls, and production guardrails needed to turn this repo into a scoped service without publishing public financial assumptions.
+
+<!-- search-growth-readme:start -->
+
+## Search And Service Surface
+
+- Public entry: public synthetic threat-response demo
+- Paid boundary: paid private scenario workspace and recurring threat exercise report
+- Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
+- Lead capture: mailto:ehdjs1351@gmail.com?subject=Security%20Threat%20Response%20Workbench%20private%20workspace&body=I%20am%20interested%20in%20paid%20private%20scenario%20workspace%20and%20recurring%20threat%20exercise%20report%20for%20Security%20Threat%20Response%20Workbench.
+- Machine-readable offer: [docs/service-offer.json](docs/service-offer.json)
+- Search growth implementation: [docs/search-growth-implementation.md](docs/search-growth-implementation.md)
+- Revenue architecture: [docs/revenue-architecture.md](docs/revenue-architecture.md)
+
+<!-- search-growth-readme:end -->

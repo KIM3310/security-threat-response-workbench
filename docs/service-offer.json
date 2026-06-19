@@ -1,0 +1,73 @@
+{
+  "name": "Security Threat Response Workbench",
+  "slug": "security-threat-response-workbench",
+  "canonical_url": "https://security-threat-response-workbench.ehdjs1351.workers.dev/",
+  "repository_url": "https://github.com/KIM3310/security-threat-response-workbench",
+  "architecture_url": "https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/system-architecture.md",
+  "revenue_architecture_url": "https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md",
+  "lead_capture_url": "mailto:ehdjs1351@gmail.com?subject=Security%20Threat%20Response%20Workbench%20private%20workspace&body=I%20am%20interested%20in%20paid%20private%20scenario%20workspace%20and%20recurring%20threat%20exercise%20report%20for%20Security%20Threat%20Response%20Workbench.",
+  "productized_offer": "threat response workbench with scenario board, runbooks, indicators, and snapshot reports",
+  "first_paid_sku": "paid private scenario workspace and recurring threat exercise report",
+  "free_lead_magnet": "public synthetic threat-response demo",
+  "search_positioning": {
+    "primary_query": "Security Threat Response Workbench scenario board runbooks",
+    "secondary_queries": [
+      "Security Threat Response Workbench demo",
+      "Security Threat Response Workbench system architecture",
+      "Security Threat Response Workbench security tool",
+      "threat response workbench with scenario board, runbooks, indicators, and snapshot reports service"
+    ],
+    "audience_intent": "Find a runnable demo, inspect the system architecture, and decide whether a private workspace or implementation package is useful."
+  },
+  "monetization_boundary": {
+    "free": "public synthetic threat-response demo",
+    "paid": "paid private scenario workspace and recurring threat exercise report",
+    "metering_hooks": [
+      "workspace_id",
+      "plan",
+      "quota_day",
+      "export_count",
+      "lead_source"
+    ],
+    "cost_guardrails": [
+      "static first",
+      "edge functions",
+      "customer API keys",
+      "cached AI outputs",
+      "synthetic public data"
+    ]
+  },
+  "structured_data": {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Security Threat Response Workbench",
+    "applicationCategory": "SecurityApplication",
+    "operatingSystem": "Web, serverless, and local development environments",
+    "url": "https://security-threat-response-workbench.ehdjs1351.workers.dev/",
+    "codeRepository": "https://github.com/KIM3310/security-threat-response-workbench",
+    "description": "Security Threat Response Workbench: threat response workbench with scenario board, runbooks, indicators, and snapshot reports. Free entry point: public synthetic threat-response demo. Paid path: paid private scenario.",
+    "creator": {
+      "@type": "Person",
+      "name": "KIM3310",
+      "url": "https://github.com/KIM3310"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "public synthetic threat-response demo",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://security-threat-response-workbench.ehdjs1351.workers.dev/"
+      },
+      {
+        "@type": "Offer",
+        "name": "paid private scenario workspace and recurring threat exercise report",
+        "availability": "https://schema.org/LimitedAvailability",
+        "url": "https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md"
+      }
+    ],
+    "isAccessibleForFree": true,
+    "keywords": "security-threat-response-workbench, Security, Threat, Response, Workbench, threat, response, workbench, scenario, board, runbooks, indicators, snapshot, recurring, exercise, synthetic, threat-response, tier, Cloudflare, Pages, serverless, launch"
+  }
+}

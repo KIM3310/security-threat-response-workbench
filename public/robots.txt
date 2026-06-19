@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://security-threat-response-workbench.ehdjs1351.workers.dev/sitemap.xml
