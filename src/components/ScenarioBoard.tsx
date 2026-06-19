@@ -7,7 +7,7 @@ const deliveryPosture = [
   {
     title: 'No vendor SIEM dependency',
     detail:
-      'The review flow is deterministic and self-contained, so the local proof works without a live SIEM tenant or managed appliance.',
+      'The architecture flow is deterministic and self-contained, so the local proof works without a live SIEM tenant or managed appliance.',
   },
   {
     title: 'Python and Bash included',
