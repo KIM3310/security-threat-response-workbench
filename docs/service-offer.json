@@ -5,7 +5,7 @@
   "repository_url": "https://github.com/KIM3310/security-threat-response-workbench",
   "architecture_url": "https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/system-architecture.md",
   "revenue_architecture_url": "https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md",
-  "lead_capture_url": "mailto:ehdjs1351@gmail.com?subject=Security%20Threat%20Response%20Workbench%20private%20workspace&body=I%20am%20interested%20in%20paid%20private%20scenario%20workspace%20and%20recurring%20threat%20exercise%20report%20for%20Security%20Threat%20Response%20Workbench.",
+  "lead_capture_url": "https://github.com/KIM3310/security-threat-response-workbench/issues/new?template=service-inquiry.yml&title=Private+workspace+inquiry%3A+Security+Threat+Response+Workbench",
   "productized_offer": "threat response workbench with scenario board, runbooks, indicators, and snapshot reports",
   "first_paid_sku": "paid private scenario workspace and recurring threat exercise report",
   "free_lead_magnet": "public synthetic threat-response demo",

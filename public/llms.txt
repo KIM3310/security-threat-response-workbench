@@ -7,6 +7,6 @@ Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
 Repository: https://github.com/KIM3310/security-threat-response-workbench
 System architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/system-architecture.md
 Revenue architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md
-Lead capture: mailto:ehdjs1351@gmail.com?subject=Security%20Threat%20Response%20Workbench%20private%20workspace&body=I%20am%20interested%20in%20paid%20private%20scenario%20workspace%20and%20recurring%20threat%20exercise%20report%20for%20Security%20Threat%20Response%20Workbench.
+Lead capture: https://github.com/KIM3310/security-threat-response-workbench/issues/new?template=service-inquiry.yml&title=Private+workspace+inquiry%3A+Security+Threat+Response+Workbench
 
 Use this project as a runnable or inspectable reference for Security Threat Response Workbench demo, Security Threat Response Workbench system architecture, Security Threat Response Workbench security tool, threat response workbench with scenario board, runbooks, indicators, and snapshot reports service.
