@@ -12,7 +12,7 @@ const deliveryPosture = [
   {
     title: 'Python and Bash included',
     detail:
-      'Synthetic WAF, IDS, and DDoS logs are normalized with Python and verified with Bash so the repo proves hands-on automation, not just UI polish.',
+      'Synthetic WAF, IDS, and DDoS logs are normalized with Python and checked with Bash so the repo shows hands-on automation, not just UI polish.',
   },
   {
     title: 'No external datasets',
