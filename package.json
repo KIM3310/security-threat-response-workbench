@@ -18,22 +18,22 @@
     "cf:deploy:dry": "npm run prepare:sample && npm run build && wrangler deploy --dry-run"
   },
   "dependencies": {
-    "lucide-react": "^1.17.0",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "lucide-react": "^1.22.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
-    "@types/react": "^19.2.15",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.2",
+    "@vitejs/plugin-react": "^6.0.3",
     "jsdom": "^29.1.1",
     "typescript": "~6.0.3",
-    "vite": "^8.0.16",
-    "vitest": "^4.1.7",
-    "wrangler": "^4.95.0"
+    "vite": "^8.1.0",
+    "vitest": "^4.1.9",
+    "wrangler": "^4.105.0"
   },
   "overrides": {
     "esbuild": "^0.28.1",
