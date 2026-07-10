@@ -2,33 +2,33 @@
 
 Scenario-driven security operations workbench focused on continuous event response, edge and network signal analysis, vulnerability-response coordination, shift handoff, and Python/Bash operator automation.
 
-Architecture pack: [`docs/architecture-pack.md`](docs/architecture-pack.md)
+Security review pack: [`docs/architecture-pack.md`](docs/architecture-pack.md)
 
-## Product and System Surface
+## System Overview
 
 A self-contained security operations desk that sells trust through clear triage, handoff continuity, and response discipline.
 
-| Lens | Definition |
+| Area | Details |
 |---|---|
-| Audience | SOC teams, cloud security teams, managed service operators, and infrastructure owners running tabletop exercises. |
-| Architecture path | Validate the demo, README, architecture notes, and quality gate before deeper workflow architecture. |
-| System signal | WAF, IDS, DDoS, vulnerability response, shift handoff, deterministic snapshots, and operator runbooks. |
-| Safety boundary | Signals are synthetic and deterministic; it demonstrates operating behavior, not live tenant access or production detection coverage. |
-| Fast path | Run the snapshot builder and verification scripts, then inspect the generated response board and architecture pack. |
+| Users | SOC teams, cloud security teams, managed service operators, and infrastructure owners running tabletop exercises. |
+| Technical path | Validate the demo, README, architecture notes, and quality gate before deeper workflow review. |
+| System scope | WAF, IDS, DDoS, vulnerability response, shift handoff, deterministic snapshots, and operator runbooks. |
+| Operating boundary | Signals are synthetic and deterministic; it demonstrates operating behavior, not live tenant access or production detection coverage. |
+| Evaluation path | Run the snapshot builder and verification scripts, then inspect the generated response board and security review pack. |
 
-## System Fast Path
+## Evaluation Path
 
-- **First minute:** Open the operator fast path, then compare the threat board with the shift handoff cards.
+- **Start here:** Open the operator fast path, then compare the threat board with the shift handoff cards.
 - **Local demo:** Run `npm install`, `npm run prepare:sample`, and `npm run dev`; open `http://127.0.0.1:5173`.
-- **Verification:** Run `npm run verify`; it covers sample generation, typecheck, tests, build, and snapshot verification.
+- **Checks:** Run `npm run verify`; it covers sample generation, typecheck, tests, build, and snapshot verification.
 
 ## Service Launch Playbook
 
-- [Service launch playbook](docs/service-launch-playbook.md) maps the repository to architecture audiences, operating gates, operating boundaries, and risk controls.
+- [Service launch playbook](docs/service-launch-playbook.md) maps the repository to its product scope, operating gates, operating boundaries, and risk controls.
 
 ## Architecture Notes
 
-- [Architecture guide](docs/architecture-evidence-map.md) summarizes the project angle, first files to inspect, runtime commands, and known boundaries.
+- [Architecture guide](docs/architecture-evidence-map.md) summarizes the system scope, first files to inspect, runtime commands, and known boundaries.
 - [Quality notes](docs/quality-gate.md) lists the local checks, CI surface, and release expectations for this repository.
 - [Enterprise readiness notes](docs/enterprise-readiness.md) outlines security, data, operations, integration, and handoff expectations.
 
@@ -79,7 +79,7 @@ This repo is designed to make one technical story explicit:
 
 The UI and data model deliberately stay close to security operations concerns:
 
-- `24x365` shift-oriented event architecture
+- `24x365` shift-oriented event review
 - `WAF / IDS / DDoS` signals in one loop
 - service-aware triage instead of abstract alert counts
 - handoff notes and knowledge-sharing behavior
@@ -175,15 +175,13 @@ Use this repo like this:
 
 ## Cloud + AI Architecture
 
-This repository includes a neutral cloud and AI engineering blueprint that maps the current proof surface to runtime boundaries, data contracts, model-risk controls, deployment posture, and validation hooks.
-
 - [Cloud + AI architecture blueprint](docs/cloud-ai-architecture.md)
 - [Machine-readable architecture manifest](docs/architecture/blueprint.json)
 - Validation command: `python3 scripts/validate_architecture_blueprint.py`
 
 ## Enterprise Productization
 
-- [Product operating model](docs/product-operating-model.md) defines the architecture inspection, trust boundary, trust boundary, operating checks, and service path for this repository.
+- [Product operating model](docs/product-operating-model.md) defines the product scope, trust boundary, operating checks, and service path for this repository.
 
 ## System Architecture
 

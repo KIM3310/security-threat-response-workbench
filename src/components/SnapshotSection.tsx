@@ -52,7 +52,7 @@ export function WatchboardSection() {
       icon={sectionIcon.automation}
       kicker="Log-derived proof"
       title="Python-normalized watchboard"
-      copy="Synthetic WAF, IDS, and DDoS logs are normalized into one architecture surface so the system shows repeatable analysis habits, not only static screenshots."
+      copy="Synthetic WAF, IDS, and DDoS logs are normalized into one security review surface so the system shows repeatable analysis habits, not only static screenshots."
       action={
         <div className="section-meta">
           <span className="meta-chip">{snapshot.meta.generatedAt}</span>
@@ -97,7 +97,7 @@ export function CoverageSection({ scenario }: { scenario: Scenario }) {
       icon={<Network className="section-icon" aria-hidden="true" />}
       kicker="Coverage board"
       title="Sensor and service posture"
-      copy="Use this to show that threat response is wider than one dashboard: edge controls, east-west visibility, cloud workloads, and customer-facing services must stay in the same inspection loop."
+      copy="Use this to show that threat response is wider than one dashboard: edge controls, east-west visibility, cloud workloads, and customer-facing services must stay in the same review loop."
     >
       <div className="domain-grid">
         {scenario.domains.map((domain) => (
