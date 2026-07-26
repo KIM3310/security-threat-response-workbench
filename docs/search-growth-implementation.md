@@ -11,6 +11,7 @@ This repository now exposes a search-readable service surface in addition to the
 | System architecture | [docs/system-architecture.md](./system-architecture.md) |
 | Public canonical URL | https://security-threat-response-workbench.ehdjs1351.workers.dev/ |
 | Lead capture URL | https://github.com/KIM3310/security-threat-response-workbench/issues/new?template=service-inquiry.yml&title=Private+workspace+inquiry%3A+Security+Threat+Response+Workbench |
+| Commercial route | https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers |
 
 ## Search Positioning
 

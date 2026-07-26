@@ -199,6 +199,7 @@ Use this repo like this:
 - Paid boundary: paid private scenario workspace and recurring threat exercise report
 - Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
 - Lead capture: https://github.com/KIM3310/security-threat-response-workbench/issues/new?template=service-inquiry.yml&title=Private+workspace+inquiry%3A+Security+Threat+Response+Workbench
+- Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers
 - Machine-readable offer: [docs/service-offer.json](docs/service-offer.json)
 - Search growth implementation: [docs/search-growth-implementation.md](docs/search-growth-implementation.md)
 - Revenue architecture: [docs/revenue-architecture.md](docs/revenue-architecture.md)

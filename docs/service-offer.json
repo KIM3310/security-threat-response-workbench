@@ -69,5 +69,29 @@
     ],
     "isAccessibleForFree": true,
     "keywords": "security-threat-response-workbench, Security, Threat, Response, Workbench, threat, response, workbench, scenario, board, runbooks, indicators, snapshot, recurring, exercise, synthetic, threat-response, tier, Cloudflare, Pages, serverless, launch"
+  },
+  "commerce": {
+    "gateway_url": "https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers",
+    "lane_id": "aegisops-response-room",
+    "lane_name": "AegisOps Response Room",
+    "billing_mode": "supporter",
+    "price_unit": "recurring tabletop support from USD 200/month after scope review",
+    "fulfillment_kind": "incident replay board, tabletop pack, handoff template, and recurring assurance readout",
+    "risk_bucket": "security-high-trust",
+    "checkout": {
+      "provider": "lemon-squeezy",
+      "status": "account-onboarding-required",
+      "fallback_url": "https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers"
+    },
+    "sponsorship": {
+      "provider": "github-sponsors",
+      "eligible": true,
+      "status": "account-onboarding-required"
+    },
+    "advertising": {
+      "provider": null,
+      "eligible": false,
+      "status": "not-applicable"
+    }
   }
 }
