@@ -10,3 +10,13 @@
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+# ADSENSE-PUBLICATION-CSP:START
+/resources.html
+  ! Content-Security-Policy
+
+/architecture.html
+  ! Content-Security-Policy
+
+/verification.html
+  ! Content-Security-Policy
+# ADSENSE-PUBLICATION-CSP:END
