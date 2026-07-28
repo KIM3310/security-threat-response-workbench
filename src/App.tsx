@@ -253,7 +253,7 @@ function App() {
           </CardSection>
         </section>
         <footer className="resource-footer" aria-label="Public resources">
-          <a href="/resources.html">Public resources</a>
+          <a href="/resources">Public resources</a>
         </footer>
       </main>
     </div>

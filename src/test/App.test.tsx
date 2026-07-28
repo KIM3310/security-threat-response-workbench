@@ -17,7 +17,7 @@ describe('Security Threat Response Workbench', () => {
     expect(screen.getByText('No extra resources required')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Public resources' })).toHaveAttribute(
       'href',
-      '/resources.html',
+      '/resources',
     );
     expect(screen.getByText('Python-normalized watchboard')).toBeInTheDocument();
   });
