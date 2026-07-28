@@ -8,6 +8,7 @@ Repository: https://github.com/KIM3310/security-threat-response-workbench
 System architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/system-architecture.md
 Revenue architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md
 Lead capture: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry
+Resource route: https://kim3310-doeon-kim-portfolio.pages.dev/resources/security-threat-response-workbench/
 Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers
 
 Use this project as a runnable or inspectable reference for Security Threat Response Workbench demo, Security Threat Response Workbench system architecture, Security Threat Response Workbench security tool, threat response workbench with scenario board, runbooks, indicators, and snapshot reports service.

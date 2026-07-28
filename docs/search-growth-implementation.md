@@ -11,6 +11,7 @@ This repository now exposes a search-readable service surface in addition to the
 | System architecture | [docs/system-architecture.md](./system-architecture.md) |
 | Public canonical URL | https://security-threat-response-workbench.ehdjs1351.workers.dev/ |
 | Lead capture URL | https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry |
+| Repository resource route | https://kim3310-doeon-kim-portfolio.pages.dev/resources/security-threat-response-workbench/ |
 | Commercial route | https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers |
 
 ## Search Positioning

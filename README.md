@@ -205,9 +205,20 @@ Use this repo like this:
 - Paid boundary: Incident Operations Exercise facilitated exercise from USD 1,800
 - Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
 - Lead capture: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry
+- Resource route: https://kim3310-doeon-kim-portfolio.pages.dev/resources/security-threat-response-workbench/
 - Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers
 - Machine-readable offer: [docs/service-offer.json](docs/service-offer.json)
 - Search growth implementation: [docs/search-growth-implementation.md](docs/search-growth-implementation.md)
 - Revenue architecture: [docs/revenue-architecture.md](docs/revenue-architecture.md)
 
 <!-- search-growth-readme:end -->
+
+<!-- KIM3310:AD-DATA-PIVOT:START -->
+## Free Resource, Advertising, and Aggregate Data
+
+- [Public utility and architecture checklist](https://kim3310-doeon-kim-portfolio.pages.dev/resources/security-threat-response-workbench/)
+- Revenue model: contextual advertising on the policy-eligible central resource page.
+- Aggregate value: anonymous aggregate threat-response topic interest and packet-open counts
+- Boundary: ads allowed only on public tabletop resources; threat workbench, evidence, incident notes, and dashboards are ad-free
+- Consent defaults off, DNT/GPC fail closed, and personal or sensitive data is never sold.
+<!-- KIM3310:AD-DATA-PIVOT:END -->
