@@ -15,6 +15,10 @@ describe('Security Threat Response Workbench', () => {
     );
     expect(screen.getByText('Open operating map')).toBeInTheDocument();
     expect(screen.getByText('No extra resources required')).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Public resources' })).toHaveAttribute(
+      'href',
+      '/resources.html',
+    );
     expect(screen.getByText('Python-normalized watchboard')).toBeInTheDocument();
   });
 

@@ -1059,6 +1059,23 @@ select {
   border-radius: 8px;
 }
 
+.resource-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+
+.resource-footer a {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.resource-footer a:hover {
+  color: var(--text);
+}
+
 @media (max-width: 720px) {
   .hero,
   .scenario-board,

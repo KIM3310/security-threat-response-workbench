@@ -14,8 +14,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "verify": "npm run prepare:sample && npm run typecheck && npm test && npm run build && npm run verify:security",
-    "cf:deploy": "npm run prepare:sample && npm run build && wrangler deploy",
-    "cf:deploy:dry": "npm run prepare:sample && npm run build && wrangler deploy --dry-run"
+    "cf:deploy": "npm run prepare:sample && npm run build && npx --yes wrangler@latest deploy",
+    "cf:deploy:dry": "npm run prepare:sample && npm run build && npx --yes wrangler@latest deploy --dry-run"
   },
   "dependencies": {
     "lucide-react": "^1.27.0",
