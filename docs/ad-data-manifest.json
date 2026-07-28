@@ -6,7 +6,7 @@
   "audience": "security analysts and tabletop exercise owners",
   "public_resource": {
     "url": "https://kim3310-doeon-kim-portfolio.pages.dev/resources/security-threat-response-workbench/",
-    "live_demo": "https://security-threat-response-workbench.ehdjs1351.workers.dev",
+    "live_demo": "https://security-threat-response-workbench.pages.dev",
     "readiness_checklist": [
       "Architecture Summary",
       "Runtime And Data Flow",

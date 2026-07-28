@@ -1,7 +1,7 @@
 {
   "name": "Security Threat Response Workbench",
   "slug": "security-threat-response-workbench",
-  "canonical_url": "https://security-threat-response-workbench.ehdjs1351.workers.dev/",
+  "canonical_url": "https://security-threat-response-workbench.pages.dev/",
   "repository_url": "https://github.com/KIM3310/security-threat-response-workbench",
   "architecture_url": "https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/system-architecture.md",
   "revenue_architecture_url": "https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md",
@@ -43,7 +43,7 @@
     "name": "Security Threat Response Workbench",
     "applicationCategory": "SecurityApplication",
     "operatingSystem": "Web, serverless, and local development environments",
-    "url": "https://security-threat-response-workbench.ehdjs1351.workers.dev/",
+    "url": "https://security-threat-response-workbench.pages.dev/",
     "codeRepository": "https://github.com/KIM3310/security-threat-response-workbench",
     "description": "Security Threat Response Workbench: synthetic incident-operations exercise demo with scenario board, runbooks, indicators, and snapshot reports. Paid path: Incident Operations Exercise private facilitation.",
     "creator": {
@@ -58,7 +58,7 @@
         "price": "0",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://security-threat-response-workbench.ehdjs1351.workers.dev/"
+        "url": "https://security-threat-response-workbench.pages.dev/"
       },
       {
         "@type": "Offer",

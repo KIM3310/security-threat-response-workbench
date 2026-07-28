@@ -203,7 +203,7 @@ Use this repo like this:
 
 - Public entry: public synthetic threat-response demo
 - Paid boundary: Incident Operations Exercise facilitated exercise from USD 1,800
-- Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
+- Canonical URL: https://security-threat-response-workbench.pages.dev/
 - Lead capture: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry
 - Resource route: https://kim3310-doeon-kim-portfolio.pages.dev/resources/security-threat-response-workbench/
 - Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers

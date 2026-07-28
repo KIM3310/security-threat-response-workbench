@@ -3,7 +3,7 @@
 Purpose: threat response workbench with scenario board, runbooks, indicators, and snapshot reports
 Free entry point: public synthetic threat-response demo
 Paid boundary: Incident Operations Exercise facilitated exercise from USD 1,800
-Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
+Canonical URL: https://security-threat-response-workbench.pages.dev/
 Repository: https://github.com/KIM3310/security-threat-response-workbench
 System architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/system-architecture.md
 Revenue architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md
