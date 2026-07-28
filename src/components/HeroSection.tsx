@@ -1,5 +1,8 @@
 import { ArrowRight, Shield } from 'lucide-react';
 
+const incidentExerciseUrl =
+  'https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry';
+
 export function HeroSection() {
   return (
     <section className="hero card-panel">
@@ -10,10 +13,17 @@ export function HeroSection() {
           Scenario-driven SOC surface for 24x365 event analysis, WAF and IDS triage, DDoS
           containment, vulnerability response, shift handoff, and operator-first automation.
         </p>
+        <p className="hero-boundary">
+          Demo boundary: synthetic deterministic incident scenarios only. Paid value starts with
+          the Incident Operations Exercise private scenario pack and after-action report.
+        </p>
         <div className="hero-actions">
           <a className="primary-action" href="#scenario-board">
             Review the active threat lane
             <ArrowRight aria-hidden="true" />
+          </a>
+          <a className="secondary-action" href={incidentExerciseUrl}>
+            Request paid exercise
           </a>
           <a className="secondary-action" href="#capability-fit">
             Open operating map

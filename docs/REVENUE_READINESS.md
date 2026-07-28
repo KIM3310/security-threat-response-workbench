@@ -11,7 +11,7 @@ This document records the commercial assumptions for this repository. They are p
 
 ## Next revenue action
 
-Turn into a consulting/demo asset: buyer pain, screenshots, setup proof, and “book a pilot” CTA.
+Keep the public demo as a synthetic incident-operations proof, then route paid interest to the Incident Operations Exercise private inquiry CTA.
 
 ## Resource/account needs
 

@@ -8,6 +8,11 @@ describe('Security Threat Response Workbench', () => {
     render(<App />);
     expect(screen.getByText('Security Threat Response Workbench')).toBeInTheDocument();
     expect(screen.getByText('Cloud Security Response Workbench')).toBeInTheDocument();
+    expect(screen.getByText(/synthetic deterministic incident scenarios only/i)).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Request paid exercise/i })).toHaveAttribute(
+      'href',
+      'https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry',
+    );
     expect(screen.getByText('Open operating map')).toBeInTheDocument();
     expect(screen.getByText('No extra resources required')).toBeInTheDocument();
     expect(screen.getByText('Python-normalized watchboard')).toBeInTheDocument();

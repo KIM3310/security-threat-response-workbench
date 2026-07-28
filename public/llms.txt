@@ -2,12 +2,12 @@
 
 Purpose: threat response workbench with scenario board, runbooks, indicators, and snapshot reports
 Free entry point: public synthetic threat-response demo
-Paid boundary: paid private scenario workspace and recurring threat exercise report
+Paid boundary: Incident Operations Exercise facilitated exercise from USD 1,800
 Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
 Repository: https://github.com/KIM3310/security-threat-response-workbench
 System architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/system-architecture.md
 Revenue architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md
-Lead capture: https://github.com/KIM3310/security-threat-response-workbench/issues/new?template=service-inquiry.yml&title=Private+workspace+inquiry%3A+Security+Threat+Response+Workbench
+Lead capture: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry
 Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers
 
 Use this project as a runnable or inspectable reference for Security Threat Response Workbench demo, Security Threat Response Workbench system architecture, Security Threat Response Workbench security tool, threat response workbench with scenario board, runbooks, indicators, and snapshot reports service.

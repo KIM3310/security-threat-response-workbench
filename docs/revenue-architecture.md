@@ -8,10 +8,11 @@ This document turns the repository architecture into a zero-to-low-cost service 
 | --- | --- |
 | Target buyer / user | security operations team or MSP needing lightweight threat triage and response playbooks |
 | Productized offer | threat response workbench with scenario board, runbooks, indicators, and snapshot reports |
-| First paid SKU | paid private scenario workspace and recurring threat exercise report |
+| First paid SKU | Incident Operations Exercise facilitated exercise from USD 1,800 |
 | Free lead magnet | public synthetic threat-response demo |
-| Paid expansion | per-team workspace, report exports, and custom runbook authoring |
+| Paid expansion | private scenario pack, incident replay board, role and handoff map, evidence checklist, after-action report, and optional runbook authoring |
 | Data / workflow moat | threat scenario taxonomy, response actions, indicator mappings, and exercise histories |
+| Private inquiry | https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry |
 
 ## Free-Tier-First Launch Stack
 
@@ -37,7 +38,7 @@ flowchart LR
   Meter --> Core["Repository core workflow"]
   Core --> AI["Free or customer-key AI inference"]
   Core --> Export["Reports, traces, bundles, or templates"]
-  Export --> Upgrade["Paid SKU: private workspace / support / connector / export pack"]
+  Export --> Upgrade["Paid SKU: Incident Operations Exercise"]
   Upgrade --> Retention["Saved history, private data, team controls, and recurring reports"]
 ```
 
@@ -51,8 +52,8 @@ flowchart LR
 
 ## 30-Day Revenue Test
 
-1. Publish the public demo or architecture page with one clear CTA: request private workspace, download a pack, or run a sample report.
-2. Add a lead capture route using Workers + D1/KV, Supabase, Firebase, or a GitHub issue form.
+1. Publish the public demo or architecture page with one clear CTA: request the Incident Operations Exercise through the private inquiry route.
+2. Route paid or research interest through the central private inquiry URL before adding checkout infrastructure.
 3. Create one downloadable artifact: report PDF, template pack, runbook, dataset sample, or export bundle.
 4. Offer a fixed-scope paid package before building subscription complexity.
 5. Track activation manually first: visits, CTA clicks, export requests, email replies, and paid pilot conversations.
@@ -69,7 +70,7 @@ flowchart LR
 
 The paid version should not be a different product. It should unlock more trust, privacy, retention, and operational surface area:
 
-- private workspace or local deployment
+- customer-scoped exercise workspace or local deployment
 - saved history and longer retention
 - branded exports or signed evidence bundles
 - connector setup for the customer's systems

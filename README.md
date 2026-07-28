@@ -16,6 +16,12 @@ A self-contained security operations desk that sells trust through clear triage,
 | Operating boundary | Signals are synthetic and deterministic; it demonstrates operating behavior, not live tenant access or production detection coverage. |
 | Evaluation path | Run the snapshot builder and verification scripts, then inspect the generated response board and security review pack. |
 
+## Paid Service CTA
+
+- Public demo boundary: synthetic incident-operation simulation; it is not a live SIEM, MDR service, or production detection claim.
+- Paid service: **Incident Operations Exercise** for a private scenario pack, incident replay board, role and handoff map, evidence checklist, and after-action report.
+- Private inquiry: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry
+
 ## Evaluation Path
 
 - **Start here:** Open the operator fast path, then compare the threat board with the shift handoff cards.
@@ -196,9 +202,9 @@ Use this repo like this:
 ## Search And Service Surface
 
 - Public entry: public synthetic threat-response demo
-- Paid boundary: paid private scenario workspace and recurring threat exercise report
+- Paid boundary: Incident Operations Exercise facilitated exercise from USD 1,800
 - Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
-- Lead capture: https://github.com/KIM3310/security-threat-response-workbench/issues/new?template=service-inquiry.yml&title=Private+workspace+inquiry%3A+Security+Threat+Response+Workbench
+- Lead capture: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry
 - Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers
 - Machine-readable offer: [docs/service-offer.json](docs/service-offer.json)
 - Search growth implementation: [docs/search-growth-implementation.md](docs/search-growth-implementation.md)

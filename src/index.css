@@ -144,6 +144,18 @@ select {
   line-height: 1.7;
 }
 
+.hero-boundary {
+  max-width: 62ch;
+  margin: 18px 0 0;
+  padding: 12px 14px;
+  border: 1px solid rgba(255, 214, 102, 0.28);
+  border-left: 4px solid var(--amber);
+  border-radius: 8px;
+  background: rgba(255, 214, 102, 0.08);
+  color: var(--muted);
+  line-height: 1.65;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
