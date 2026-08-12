@@ -11,7 +11,6 @@ A self-contained security operations desk that sells trust through clear triage,
 | Area | Details |
 |---|---|
 | Users | SOC teams, cloud security teams, managed service operators, and infrastructure owners running tabletop exercises. |
-| Technical path | Validate the demo, README, architecture notes, and quality gate before deeper workflow review. |
 | System scope | WAF, IDS, DDoS, vulnerability response, shift handoff, deterministic snapshots, and operator runbooks. |
 | Operating boundary | Signals are synthetic and deterministic; it demonstrates operating behavior, not live tenant access or production detection coverage. |
 | Evaluation path | Run the snapshot builder and verification scripts, then inspect the generated response board and security review pack. |
