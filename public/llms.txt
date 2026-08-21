@@ -3,7 +3,7 @@
 Purpose: threat response workbench with scenario board, runbooks, indicators, and snapshot reports
 Free entry point: public synthetic threat-response demo
 Paid boundary: Incident Operations Exercise facilitated exercise from USD 1,800
-Canonical URL: https://security-threat-response-workbench.pages.dev/
+Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
 Repository: https://github.com/KIM3310/security-threat-response-workbench
 System architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/system-architecture.md
 Revenue architecture: https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md
@@ -13,8 +13,8 @@ Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-
 
 Use this project as a runnable or inspectable reference for Security Threat Response Workbench demo, Security Threat Response Workbench system architecture, Security Threat Response Workbench security tool, threat response workbench with scenario board, runbooks, indicators, and snapshot reports service.
 # ADSENSE-PUBLICATION:START
-Editorial guide: https://security-threat-response-workbench.pages.dev/resources
-Architecture article: https://security-threat-response-workbench.pages.dev/architecture
-Verification article: https://security-threat-response-workbench.pages.dev/verification
-Publisher information: https://security-threat-response-workbench.pages.dev/publisher
+Editorial guide: https://security-threat-response-workbench.ehdjs1351.workers.dev/resources
+Architecture article: https://security-threat-response-workbench.ehdjs1351.workers.dev/architecture
+Verification article: https://security-threat-response-workbench.ehdjs1351.workers.dev/verification
+Publisher information: https://security-threat-response-workbench.ehdjs1351.workers.dev/publisher
 # ADSENSE-PUBLICATION:END

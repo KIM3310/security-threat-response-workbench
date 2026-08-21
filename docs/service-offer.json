@@ -1,7 +1,7 @@
 {
   "name": "Security Threat Response Workbench",
   "slug": "security-threat-response-workbench",
-  "canonical_url": "https://security-threat-response-workbench.pages.dev/",
+  "canonical_url": "https://security-threat-response-workbench.ehdjs1351.workers.dev/",
   "repository_url": "https://github.com/KIM3310/security-threat-response-workbench",
   "architecture_url": "https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/system-architecture.md",
   "revenue_architecture_url": "https://github.com/KIM3310/security-threat-response-workbench/blob/main/docs/revenue-architecture.md",
@@ -43,7 +43,7 @@
     "name": "Security Threat Response Workbench",
     "applicationCategory": "SecurityApplication",
     "operatingSystem": "Web, serverless, and local development environments",
-    "url": "https://security-threat-response-workbench.pages.dev/",
+    "url": "https://security-threat-response-workbench.ehdjs1351.workers.dev/",
     "codeRepository": "https://github.com/KIM3310/security-threat-response-workbench",
     "description": "Security Threat Response Workbench: synthetic incident-operations exercise demo with scenario board, runbooks, indicators, and snapshot reports. Paid path: Incident Operations Exercise private facilitation.",
     "creator": {
@@ -58,7 +58,7 @@
         "price": "0",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://security-threat-response-workbench.pages.dev/"
+        "url": "https://security-threat-response-workbench.ehdjs1351.workers.dev/"
       },
       {
         "@type": "Offer",
@@ -68,7 +68,7 @@
       }
     ],
     "isAccessibleForFree": true,
-    "keywords": "security-threat-response-workbench, Security, Threat, Response, Workbench, threat, response, workbench, scenario, board, runbooks, indicators, snapshot, recurring, exercise, synthetic, threat-response, tier, Cloudflare, Pages, serverless, launch"
+    "keywords": "security-threat-response-workbench, Security, Threat, Response, Workbench, threat, response, workbench, scenario, board, runbooks, indicators, snapshot, recurring, exercise, synthetic, threat-response, tier, Cloudflare, Workers, serverless, launch"
   },
   "commerce": {
     "gateway_url": "https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers",

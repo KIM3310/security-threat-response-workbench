@@ -19,11 +19,11 @@ This document turns the repository architecture into a zero-to-low-cost service 
 | Concern | Default choice |
 | --- | --- |
 | Build and coding loop | OpenCode, Kimi Code CLI, Freebuff, Lovable, Ollama-assisted local agents |
-| Public front door | Cloudflare Pages first, with Vercel/Netlify as alternate static front doors |
+| Public front door | Cloudflare Workers canonical origin, with Cloudflare Pages as an alternate preview/deploy lane and Vercel/Netlify as alternate static front doors |
 | Backend / state | Cloudflare Workers for thin APIs, Supabase/Firebase for managed auth and data, Render/Oracle/GCP free VM only when a long-running process is unavoidable |
 | AI inference | OpenRouter, Groq, Cerebras, Cloudflare Workers AI, NVIDIA NIM, Ollama local fallback |
 | Storage / exports | Supabase Storage, Firebase Storage, Cloudflare R2/KV/D1 depending on data shape |
-| Repo-specific launch path | Cloudflare Pages/Workers, D1 scenario store, R2 snapshot exports, OpenRouter/Groq/Workers AI for runbook drafting under rate limits |
+| Repo-specific launch path | Cloudflare Workers canonical app/API, Cloudflare Pages alternate preview lane, D1 scenario store, R2 snapshot exports, OpenRouter/Groq/Workers AI for runbook drafting under rate limits |
 
 Keep exact provider quotas out of the product contract. Free-tier limits change; the architecture should degrade gracefully through caching, daily quotas, customer-supplied API keys, and an explicit paid workspace switch.
 
