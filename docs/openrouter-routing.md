@@ -18,7 +18,7 @@ OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
 OPENROUTER_MODEL=anthropic/claude-sonnet-4.6
 OPENROUTER_FALLBACK_MODEL=openai/gpt-5.4-mini
 OPENROUTER_ECONOMY_MODEL=openrouter/free
-OPENROUTER_HTTP_REFERER=https://security-threat-response-workbench.pages.dev
+OPENROUTER_HTTP_REFERER=https://security-threat-response-workbench.ehdjs1351.workers.dev
 OPENROUTER_APP_TITLE=security-threat-response-workbench
 ```
 

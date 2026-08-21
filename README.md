@@ -1,5 +1,7 @@
 # Security Threat Response Workbench
 
+[![CI](https://github.com/KIM3310/security-threat-response-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/KIM3310/security-threat-response-workbench/actions/workflows/ci.yml)
+
 Scenario-driven security operations workbench focused on continuous event response, edge and network signal analysis, vulnerability-response coordination, shift handoff, and Python/Bash operator automation.
 
 Security review pack: [`docs/architecture-pack.md`](docs/architecture-pack.md)
@@ -202,7 +204,7 @@ Use this repo like this:
 
 - Public entry: public synthetic threat-response demo
 - Paid boundary: Incident Operations Exercise facilitated exercise from USD 1,800
-- Canonical URL: https://security-threat-response-workbench.pages.dev/
+- Canonical URL: https://security-threat-response-workbench.ehdjs1351.workers.dev/
 - Lead capture: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench&inquiry=incident-operations-exercise#private-inquiry
 - Resource route: https://kim3310-doeon-kim-portfolio.pages.dev/resources/security-threat-response-workbench/
 - Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=security-threat-response-workbench#service-offers
